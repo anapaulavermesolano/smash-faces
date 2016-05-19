@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Smash Faces</title>
+	  <link rel="stylesheet" href="css/bootstrap.css">
+	  <link rel="stylesheet" href="css/font-awesome.min.css">
+	  <link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>SMASH FACES</h1>
+			<p>Bienvenidas al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras de clase ingresando para ellas su nombre.Tienes 5 oportunidades antes de perder 1 punto y paar a la siguiente</p>
+			<div class="row">
+				<div class="col-md-6">
+					<h2 class="inline">Elige tu sede: </h2>
+					<select id="seleccion">
+						<option value="1" selected="selected">selecciona un país</option>
+						<option value="2">Perú</option>
+						<option value="3">México</option>
+					</select>
+				</div>
+				<div class="col-md-6">
+					<h5 class="inline">Puntaje: </h5>
+					<h5 class="inline" id="puntaje"> 0</h5>
+				</div>
+			</div>
+			
+
+			<div class="row margin">
+				<div class="col-md-5">
+					<div id="fondo">
+						
+					</div>
+				</div>
+				<div class="col-md-7">
+				        <div class="form-group">
+				          <input type="text" id="nombre" class="form-control" placeholder="Nombre">
+				        </div>
+				        <button type="submit" id="comprobar" class="boton">Comprobar</button>
+				        <p id="mensaje"></p>
+				        <p id="correctas"></p>
+				        <p id="errores"></p>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/peru.js"></script>
+		<script src="js/mexico.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
