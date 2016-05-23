@@ -17,7 +17,7 @@ p {
     margin-top: 30px;
 }
 h2, h5 {
-	margin: 32px 20px 0 0;
+    margin: 32px 20px 0 0;
     font-size: 30px;
     color: #993700;
 }
@@ -28,7 +28,7 @@ h2, h5 {
     color: #963600;
 }
 .boton{
-	display: block !important;
+    display: block !important;
     margin: 15px 0;
     background: #DE4F00;
     padding: 5px;
@@ -38,7 +38,7 @@ h2, h5 {
     border-radius: 3px;
 }
 .form-group, .form-control {
-	width: 80% !important;
+    width: 80% !important;
 }
 .form-control {
     border: 2px solid rgba(255, 91, 0, 0.52);
